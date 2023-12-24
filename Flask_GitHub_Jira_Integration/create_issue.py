@@ -10,7 +10,7 @@ app = Flask(__name__)  # creating flask application instance
 def createjiraticket():
     url = "https://rahulkarthi0602.atlassian.net/rest/api/3/issue"
 
-    API_TOKEN = "ATATT3xFfGF0QcQkZHKUb4TehjNCFoPW7X7pdRmWXUM8qqetcFLj_xG-dvlzQ7yT3zGB_c9HZmNt7xaUFJ6Ght7rZZuBovMZtm2VcEgUaop6rr8ofAKd5ezVpvsqZQUqtP9yQC12SOzX7xmTZVTtw8F_EE2jY_PaB3qlsdQcvzy_fOE3YPVNk0c=FD9A071E"
+    API_TOKEN = "" #add jira api token 
     auth = HTTPBasicAuth("rahulkarthi06.02@gmail.com", API_TOKEN)
 
     headers = {
