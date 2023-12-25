@@ -26,19 +26,11 @@ management in AWS environments.
 
 **AWS Credentials:**
 
-●
+Ensure that your AWS credentials are properly configured on the environment where the Lambda function
 
-Ensure that your AWS credentials are properly configured on the environment where the Lambda
-
-function will run.
+will run.
 
 **Lambda Function:**
-
-●
-
-●
-
-●
 
 Create a new Lambda function in the AWS Management Console.
 
@@ -48,15 +40,9 @@ Configure the function settings, including memory, timeout, and execution role.
 
 **CloudWatch Events:**
 
-●
-
-●
-
 Set up a CloudWatch Events rule to trigger the Lambda function.
 
-Define the event pattern to capture the desired events that should trigger the EBS volume type
-
-conversion.
+Define the event pattern to capture the desired events that should trigger the EBS volume type conversion.
 
 **Functionality**
 
@@ -73,12 +59,6 @@ last part of the ARN after the last '/' character.
 **lambda\_handler(event, context)**
 
 The main Lambda handler function:
-
-●
-
-●
-
-●
 
 Extracts the volume ARN from the incoming CloudWatch Event.
 
